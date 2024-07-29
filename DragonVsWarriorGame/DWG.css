@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+#container{
+    width:1024px;
+    height:768px;
+    background:url('/HTML,CSS, JS/HTML,CSS,JS Advanced/DragonWarriorGame/bg.jpg');
+    margin:20px auto;
+    border:15px solid silver;
+    position:relative;
+}
+#warrior{
+    position:absolute;
+    bottom:12rem;
+    left:4rem;
+    z-index: 2;
+}
+.btn{
+    position:absolute;
+    border-radius: 50%;
+    width:5rem;
+    height:5rem;
+    background-color: red;
+    color:white;
+}
+.warrior-attack{
+    bottom:5rem;
+    left:4rem;
+   
+}
+.dragon-attack{
+    right:7rem;
+    bottom:5rem;
+}
+#dragon{
+    position:absolute;
+    right:3rem;
+    bottom: 12rem;
+}
+.hb{
+    position: absolute;
+    width: 	15rem;
+    height: 3rem;
+    border: 5px solid silver;
+}
+.hb-warrior{
+    top:3rem;
+    left:2rem;
+}
+.hb-dragon{
+    top:3rem;
+    right:2rem;
+}
+.hb-inner{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+#winner{
+    text-align: center;
+    color: #fff;
+    font-size:2.2rem;
+}
